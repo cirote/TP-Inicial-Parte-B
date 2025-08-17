@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace TP_Inicial_Parte_B
 {
-    public partial class Form1 : Form
+    public partial class frmCalculadora : Form
     {
-        public Form1()
+        public frmCalculadora()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

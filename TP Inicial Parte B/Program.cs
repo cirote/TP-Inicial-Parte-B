@@ -16,7 +16,7 @@ namespace TP_Inicial_Parte_B
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmCalculadora());
         }
     }
 }
