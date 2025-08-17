@@ -34,117 +34,132 @@
             this.Txtop1 = new System.Windows.Forms.TextBox();
             this.Txtrta = new System.Windows.Forms.TextBox();
             this.Txtop2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.Btnsuma = new System.Windows.Forms.Button();
+            this.Btnsalir = new System.Windows.Forms.Button();
+            this.Btnprod = new System.Windows.Forms.Button();
+            this.Btncoc = new System.Windows.Forms.Button();
+            this.Btnresta = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Lblop1
             // 
             this.Lblop1.AutoSize = true;
+            this.Lblop1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lblop1.Location = new System.Drawing.Point(40, 31);
             this.Lblop1.Name = "Lblop1";
-            this.Lblop1.Size = new System.Drawing.Size(87, 16);
+            this.Lblop1.Size = new System.Drawing.Size(96, 18);
             this.Lblop1.TabIndex = 0;
             this.Lblop1.Text = "1er Operador";
             // 
             // Lblop2
             // 
             this.Lblop2.AutoSize = true;
+            this.Lblop2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lblop2.Location = new System.Drawing.Point(40, 69);
             this.Lblop2.Name = "Lblop2";
-            this.Lblop2.Size = new System.Drawing.Size(91, 16);
+            this.Lblop2.Size = new System.Drawing.Size(100, 18);
             this.Lblop2.TabIndex = 1;
             this.Lblop2.Text = "2do Operador";
             // 
             // Lbirta
             // 
             this.Lbirta.AutoSize = true;
+            this.Lbirta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbirta.Location = new System.Drawing.Point(40, 118);
             this.Lbirta.Name = "Lbirta";
-            this.Lbirta.Size = new System.Drawing.Size(69, 16);
+            this.Lbirta.Size = new System.Drawing.Size(75, 18);
             this.Lbirta.TabIndex = 2;
             this.Lbirta.Text = "Resultado";
             // 
             // Txtop1
             // 
+            this.Txtop1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txtop1.Location = new System.Drawing.Point(168, 25);
             this.Txtop1.Name = "Txtop1";
-            this.Txtop1.Size = new System.Drawing.Size(100, 22);
+            this.Txtop1.Size = new System.Drawing.Size(100, 24);
             this.Txtop1.TabIndex = 3;
             // 
             // Txtrta
             // 
+            this.Txtrta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txtrta.Location = new System.Drawing.Point(168, 112);
             this.Txtrta.Name = "Txtrta";
-            this.Txtrta.Size = new System.Drawing.Size(100, 22);
+            this.Txtrta.Size = new System.Drawing.Size(100, 24);
             this.Txtrta.TabIndex = 4;
             // 
             // Txtop2
             // 
+            this.Txtop2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txtop2.Location = new System.Drawing.Point(168, 63);
             this.Txtop2.Name = "Txtop2";
-            this.Txtop2.Size = new System.Drawing.Size(100, 22);
+            this.Txtop2.Size = new System.Drawing.Size(100, 24);
             this.Txtop2.TabIndex = 5;
             // 
-            // button1
+            // Btnsuma
             // 
-            this.button1.Location = new System.Drawing.Point(320, 24);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Suma";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Btnsuma.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.Btnsuma.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btnsuma.Location = new System.Drawing.Point(320, 24);
+            this.Btnsuma.Name = "Btnsuma";
+            this.Btnsuma.Size = new System.Drawing.Size(86, 32);
+            this.Btnsuma.TabIndex = 6;
+            this.Btnsuma.Text = "Suma";
+            this.Btnsuma.UseVisualStyleBackColor = false;
+            this.Btnsuma.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // Btnsalir
             // 
-            this.button2.Location = new System.Drawing.Point(110, 178);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Salir";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Btnsalir.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.Btnsalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btnsalir.Location = new System.Drawing.Point(110, 178);
+            this.Btnsalir.Name = "Btnsalir";
+            this.Btnsalir.Size = new System.Drawing.Size(75, 23);
+            this.Btnsalir.TabIndex = 7;
+            this.Btnsalir.Text = "Salir";
+            this.Btnsalir.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // Btnprod
             // 
-            this.button3.Location = new System.Drawing.Point(320, 154);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Producto";
-            this.button3.UseVisualStyleBackColor = true;
+            this.Btnprod.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btnprod.Location = new System.Drawing.Point(320, 154);
+            this.Btnprod.Name = "Btnprod";
+            this.Btnprod.Size = new System.Drawing.Size(86, 23);
+            this.Btnprod.TabIndex = 8;
+            this.Btnprod.Text = "Producto";
+            this.Btnprod.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // Btncoc
             // 
-            this.button4.Location = new System.Drawing.Point(320, 111);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "Cociente";
-            this.button4.UseVisualStyleBackColor = true;
+            this.Btncoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btncoc.Location = new System.Drawing.Point(320, 111);
+            this.Btncoc.Name = "Btncoc";
+            this.Btncoc.Size = new System.Drawing.Size(86, 23);
+            this.Btncoc.TabIndex = 9;
+            this.Btncoc.Text = "Cociente";
+            this.Btncoc.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // Btnresta
             // 
-            this.button5.Location = new System.Drawing.Point(320, 62);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 10;
-            this.button5.Text = "Resta";
-            this.button5.UseVisualStyleBackColor = true;
+            this.Btnresta.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.Btnresta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btnresta.Location = new System.Drawing.Point(320, 62);
+            this.Btnresta.Name = "Btnresta";
+            this.Btnresta.Size = new System.Drawing.Size(86, 23);
+            this.Btnresta.TabIndex = 10;
+            this.Btnresta.Text = "Resta";
+            this.Btnresta.UseVisualStyleBackColor = false;
             // 
             // frmCalculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(431, 223);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Btnresta);
+            this.Controls.Add(this.Btncoc);
+            this.Controls.Add(this.Btnprod);
+            this.Controls.Add(this.Btnsalir);
+            this.Controls.Add(this.Btnsuma);
             this.Controls.Add(this.Txtop2);
             this.Controls.Add(this.Txtrta);
             this.Controls.Add(this.Txtop1);
@@ -166,11 +181,11 @@
         private System.Windows.Forms.TextBox Txtop1;
         private System.Windows.Forms.TextBox Txtrta;
         private System.Windows.Forms.TextBox Txtop2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button Btnsuma;
+        private System.Windows.Forms.Button Btnsalir;
+        private System.Windows.Forms.Button Btnprod;
+        private System.Windows.Forms.Button Btncoc;
+        private System.Windows.Forms.Button Btnresta;
     }
 }
 

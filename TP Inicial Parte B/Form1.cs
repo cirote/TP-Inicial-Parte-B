@@ -19,7 +19,7 @@ namespace TP_Inicial_Parte_B
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Txtrta.Text = (Int32.Parse(Txtop1.Text) + Int32.Parse(Txtop2.Text)).ToString();
         }
     }
 }
